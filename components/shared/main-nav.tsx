@@ -23,6 +23,9 @@ export default function MainNav() {
       }
     };
 
+    // Call handleScroll on initial render
+    handleScroll();
+
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -53,16 +56,7 @@ export default function MainNav() {
         </div>
         <div className="hidden lg:flex space-x-1 z-50">
           <Link
-            href="https://www.twitter.com/abdo_eth"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <Button className="flex items-center" variant="ghost" size="icon">
-              <TwitterLogoIcon className="h-4 w-4" />
-            </Button>
-          </Link>
-          <Link
-            href="https://www.github.com/chrisabdo/motionvariants"
+            href="https://github.com/daylinarmstead/variant-vault"
             rel="noreferrer"
             target="_blank"
           >

@@ -224,16 +224,16 @@ export default function Home() {
               </h1>
               <p className="text-center">
                 {" "}
-                If you want to see a variant added, please message me on{" "}
+                If you want to see a variant added, please send a message to{" "}
                 <Link
                   className="text-primary underline"
-                  href="https://twitter.com/abdo_eth"
+                  href="mailto:armsteaddaylin95@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Twitter
+                  armsteaddaylin95@gmail.com
                 </Link>
-                &nbsp;@abdo_eth or create a pull request on the GitHub repo.
+                &nbsp;or create a pull request on the GitHub repo.
               </p>
             </div>
           )}
